@@ -47,22 +47,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-- Firstly, clone the repository to your local machine:
+*Firstly, clone the repository to your local machine:*
 
 ```bash
 git clone https://github.com/OriVered/PPTX-Analysis.git
 ```
-- Change into the cloned directory:
+*Change into the cloned directory:*
 ```bash
 cd PPTX-Analysis
 ```
 
-- Install the necessary Python packages:
+*Install the necessary Python packages:*
 ```bash
 pip install -r requirements.txt
 ```
 
-Set up the `OPENAI_API_KEY` environment variable:
+*Set up the `OPENAI_API_KEY` environment variable:*
 
 The application uses the OpenAI API for analysis. You need to provide your OpenAI API key as an environment variable for the application to function properly. 
 
@@ -80,14 +80,13 @@ The application uses the OpenAI API for analysis. You need to provide your OpenA
 
 
 ### Running the Application
-- You can run the application with the following command:
+*You can run the application with the following command:*
 ```bash
 python app/api_server/web_api.py
 ```
+This will start the Flask application on your localhost.
 
-- This will start the Flask application on your localhost.
-
-To process the PPTX files, run:
+*To process the PPTX files, run:*
 ```bash
 python app/explainer_server/explainer.py
 ```
